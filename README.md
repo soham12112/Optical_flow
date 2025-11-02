@@ -65,8 +65,10 @@ python -m flows.run \
   --transmission_method fast \
   --resize_long_edge 960
 ```
+# Add for DPFLOW Instead of RAFT here
 
-### 2. Estimate Speed (NEW!)
+
+### 2. Estimate Speed (WIP)
 
 After generating optical flow, estimate animal swimming speed in **meters/second**:
 
