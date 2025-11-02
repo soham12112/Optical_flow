@@ -1,0 +1,40 @@
+# Underwater Optical Flow and Scene Flow Tool
+# Core dependencies
+
+# Computer vision and deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+
+# Numerical computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Image/video processing
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+
+# Utilities
+tqdm>=4.65.0
+pillow>=10.0.0
+pandas>=2.0.0  # For CSV processing in speed estimation
+matplotlib>=3.7.0  # For plotting and visualization
+
+# Optional: for better performance
+# timm>=0.9.0  # For newer vision transformers
+
+# Notes:
+# 1. For RAFT: Clone the official repo
+#    git clone https://github.com/princeton-vl/RAFT.git flows/models/raft_core
+#    The code will attempt to import from this location
+#
+# 2. For MiDaS depth estimation (auto-downloaded via torch.hub):
+#    No additional installation needed
+#
+# 3. For CUDA support: Install PyTorch with CUDA
+#    See: https://pytorch.org/get-started/locally/
+#
+# 4. For guided filter in transmission estimation:
+#    opencv-contrib-python provides ximgproc module
+
